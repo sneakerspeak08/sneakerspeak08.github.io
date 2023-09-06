@@ -1,17 +1,83 @@
-body{
-    background-color: purple;
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    color: white;
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
 }
 
-p{
-    font-family: 'Franklin Gothic Medium';
-    font-size: 20px;
+header h1 {
+    font-size: 36px;
 }
 
-a{
-    color:red
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+
+ul {
+    list-style: disc;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
 }
