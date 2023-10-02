@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Schwalbach || HTML Tables</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th:first-child, td:first-child {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ethan Schwalbach || HTML Tables</h1>
+        <nav>
+            <a href="./">Homepage</a>
+            ||
+            <a href="introduction.html">Introduction</a>
+            ||
+            <a href="contract.html">Contract</a>
+            ||
+            <a href="tables.html">HTML Tables</a>
+            ||
+            <a href="forms.html">HTML Forms</a>
+            ||
+            <a href="/">Back to Main Site</a>
+        </nav>
+    </header>
+    <main>
+        <h2>HTML Tables</h2>
+
+        <h3>My Tabular Data</h3>
+        <ol>
+            <li>D.I. von Briesen - dvonbri1@gmail.com - 1</li>
+            <li>Esam Abdullah - eabdullah@yahoo.com - 31</li>
+            <li>Medina Gomez - gomez_med8@gmail.com - 3</li>
+            <li>Sarah Johnson - sarah@yahoo.com - 4</li>
+            <li>William Davis - william@gmail.com - 5</li>
+            <li>Mia Garcia - mia@gmail.com - 7</li>
+            <li>Oliver Smith - oliver@yahoo.com - 2</li>
+        </ol>
+
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <td>D.I. von Briesen</td>
+                <td>dvonbri1@gmail.com</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Esam Abdullah</td>
+                <td>eabdullah@yahoo.com</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Medina Gomez</td>
+                <td>gomez_med8@gmail.com</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Sarah Johnson</td>
+                <td>sarah@yahoo.com</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>William Davis</td>
+                <td>william@gmail.com</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Mia Garcia</td>
+                <td>mia@gmail.com</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Oliver Smith</td>
+                <td>oliver@yahoo.com</td>
+                <td>2</td>
+            </tr>
+        </table>
+
+        <h3>Employee Data in Complex Table</h3>
+        <figure>
+            <figcaption>Employee Information</figcaption>
+            <table class="complex-table">
+                <tr>
+                    <th>Category</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                    <th>Monthly Salary</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Marketing</td>
+                    <td>John Doe</td>
+                    <td>johndoe@gmail.com</td>
+                    <td>5</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>janesmith@yahoo.com</td>
+                    <td>3</td>
+                    <td>$4,000</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Sales</td>
+                    <td>Bob Johnson</td>
+                    <td>bjohnson@gmail.com</td>
+                    <td>7</td>
+                    <td>$6,500</td>
+                </tr>
+                <tr>
+                    <td>Lisa Davis</td>
+                    <td>lisadavis@yahoo.com</td>
+                    <td>2</td>
+                    <td>$4,200</td>
+                </tr>
+                <tr>
+                    <td>HR</td>
+                    <td>Mike Smith</td>
+                    <td>mikesmith@gmail.com</td>
+                    <td>9</td>
+                    <td>$7,200</td>
+                </tr>
+                <tr>
+                    <th colspan="4">Total Years of Service</th>
+                    <th>28</th>
+                </tr>
+                <tr>
+                    <th colspan="4">Total Salaries</th>
+                    <th>$54,700</th>
+                </tr>
+            </table>
+        </figure>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/eschwalb/">CLT Webspace</a>
+            ||
+            <a href="https://github.com/sneakerspeak08">Github</a>
+            ||
+            <a href="https://sneakerspeak08.github.io/">Github.io</a>
+            ||
+            <a href="https://sneakerspeak08.github.io/itis3135/">ITIS3135.io</a>
+            ||
+            <a href="https://www.freecodecamp.org/ethanschwalbach">FreeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/ajax0404705041">Codeacademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/ethan-schwalbach-8016b71b2">LinkedIn</a>
+        </nav>
+        <p>Built by<a href="schwalbach-enterprise.com/">© Schwalbach Enterprise 2023</a></p>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img style="border:0;width:88px;height:31px"
+            src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+        </a>
+    </footer>
+</body>
+</html>

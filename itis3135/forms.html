@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Schwalbach || HTML Forms</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <h1>Ethan Schwalbach || Forms </h1>
+        <nav>
+            <a href="./">Homepage</a>
+            ||
+            <a href="introduction.html">Introduction</a>
+            ||
+            <a href="contract.html">Contract</a>
+            ||
+            <a href="tables.html">HTML Tables</a>
+            ||
+            <a href="forms.html">HTML Forms</a>
+            ||
+            <a href="/">Back to Main Site</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Ethan Schwalbach || Forms </h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Ethan Schwalbach"><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="example@example.com"><br>
+            
+            <label for="music-genre">Favorite Music Genre:</label>
+            <select id="music-genre" name="music-genre">
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="hip-hop">Hip-Hop</option>
+                <option value="jazz">Jazz</option>
+                <option value="classical">Classical</option>
+                <option value="country">Country</option>
+                <option value="electronic">Electronic</option>
+                <option value="other">Other</option>
+            </select><br>
+            
+            <fieldset>
+                <legend>Preferred Music Instruments:</legend>
+                <label for="guitar"><input type="checkbox" id="guitar" name="instruments[]" value="guitar"> Guitar</label><br>
+                <label for="piano"><input type="checkbox" id="piano" name="instruments[]" value="piano"> Piano</label><br>
+                <label for="drums"><input type="checkbox" id="drums" name="instruments[]" value="drums"> Drums</label><br>
+                <label for="vocals"><input type="checkbox" id="vocals" name="instruments[]" value="vocals"> Vocals</label><br>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Listening Preferences:</legend>
+                <label for="radio"><input type="radio" id="radio" name="listening-preference" value="radio"> Radio</label><br>
+                <label for="streaming"><input type="radio" id="streaming" name="listening-preference" value="streaming"> Streaming</label><br>
+                <label for="vinyl"><input type="radio" id="vinyl" name="listening-preference" value="vinyl"> Vinyl</label><br>
+            </fieldset>
+            
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+               
+           
+        </form>
+    </main>
+    <footer>
+        <nav>
+        <a href="https://webpages.charlotte.edu/eschwalb/">CLT Webspace</a>
+        ||
+        <a href="https://github.com/sneakerspeak08">Github</a>
+        ||
+        <a href="https://sneakerspeak08.github.io/">Github.io</a>
+        ||
+        <a href="https://sneakerspeak08.github.io/itis3135/">ITIS3135.io</a>
+        ||
+        <a href="https://www.freecodecamp.org/ethanschwalbach">FreeCodeCamp</a>
+        ||
+        <a href="https://www.codecademy.com/profiles/ajax0404705041">Codeacademy</a>
+        ||
+        <a href="https://www.linkedin.com/in/ethan-schwalbach-8016b71b2">LinkedIn</a>
+    </nav>
+    <p>Built by<a href="schwalbach-enterprise.com/">© Schwalbach Enterprise 2023</a></p>
+    <a href="https://validator.w3.org/check?uri=referer">
+        <img style="border:0;width:88px;height:31px"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid
+        CSS!">
+        </a>
+    </footer>
+</body>
+</html>
