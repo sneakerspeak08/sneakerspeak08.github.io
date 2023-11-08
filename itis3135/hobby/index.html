@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Production</title>
+    <style>
+        /* Embedded stylesheet for the entire page */
+        /* CSS styles with colors similar to Ableton Live 11 */
+        body {
+            background-color: #171717; /* Dark background */
+            color: #FFFFFF; /* White text */
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #292929; /* Dark header background */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #FFFFFF; /* White links */
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #FF8B1E; /* Orange on hover */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .page-section {
+            background-color: #242424; /* Dark section background */
+            border: 2px solid #373737; /* Border color */
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #FF8B1E; /* Orange headings */
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        figure {
+            margin: 20px 0;
+        }
+
+        figcaption {
+            color: #A0A0A0; /* Light gray captions */
+            font-style: italic;
+        }
+
+        footer {
+            background-color: #292929; /* Dark footer background */
+            color: #A0A0A0; /* Light gray text */
+            padding: 10px;
+            text-align: center;
+        }
+
+        a {
+            color: #FF8B1E; /* Orange links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #FFFFFF; /* White on hover */
+        }
+            /* Style the form container */
+    #collaboration-form {
+        background-color: #292929;
+        color: #FFFFFF;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    /* Style the form labels */
+    #collaboration-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    /* Style the form input fields and textarea */
+    #collaboration-form input[type="text"],
+    #collaboration-form input[type="email"],
+    #collaboration-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #171717; /* Dark background color */
+        color: #FFFFFF;
+    }
+
+    /* Style the form button */
+    #collaboration-form button[type="submit"] {
+        background-color: #FF8B1E; /* Orange button color */
+        color: #FFFFFF;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Style the form button on hover */
+    #collaboration-form button[type="submit"]:hover {
+        background-color: #FF7C00; /* Slightly darker orange on hover */
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Music Production</h1>
+        <nav>
+            <a href="#home">Home</a> ||
+            <a href="#about">About Me</a> ||
+            <a href="#when">DAW History</a> ||
+            <a href="#who">My Favorite Artists</a> ||
+            <a href="#techniques">Techniques</a> ||
+            <a href="#why">Why I make music</a> ||
+            <a href="/itis3135">Back to Main Site</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="page-section">
+            <h2>Welcome to my music production journey!</h2>
+            <p>A world where creativity has no bounds. I've been on this adventure for three incredible (but painful at times) years. With Ableton Live as my trusty best friend, I've had the privilege of signing a few tracks with renowned record labels, specializing in genres like Drum & Bass and Tech House. Music production is a hobby to me, but more so a passion that never stops.</p>
+            <figure>
+                <img src="images/mymixer.png" alt="DJing" width="300"> <!-- Adjust the width value as needed -->
+                <figcaption>Me DJing a rave</figcaption>
+            </figure>
+            <h3>Collaborate with Me</h3>
+    <p>If you're a fellow musician and want to collaborate with me, please fill out the form below:</p>
+
+    <form id="collaboration-form" action="#" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Tell me about your music and collaboration ideas:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Collaboration Request</button>
+    </form>
+        </section>
+        <section id="about" class="page-section">
+            <h2>About Me</h2>
+            <p>My music production journey has spanned nearly three years, and it's been an incredible adventure filled with both challenges and inspiration. In the early days, frustration often set in as I grappled with the limitations of my production skills. However, I soon learned that these limitations could actually fuel creativity. Keeping things simple and selecting the right sounds emerged as the most crucial elements in crafting a compelling track.</p>
+        
+            <p>I initially embarked on my musical voyage in the realm of house music, but over time, I transitioned to the world of drum & bass. I found that this genre, with its fewer rules and greater creative freedom, allowed me to develop my own unique style. Along this journey, I coined the name "Dance Virus" for myself, symbolizing my affinity for computer-based music production.</p>
+        
+            <p>One of the highlights of my musical journey was a week-long production class in the heart of New York City, hosted by one of the world's most renowned dance labels, Repopulate Mars. During this incredible experience, I had the privilege of learning from some of the industry's luminaries, including the talented John Summit.</p>
+        
+            <!-- SoundCloud Embeds -->
+            <div class="soundcloud-embed">
+                <!-- Replace the src attribute with your SoundCloud track URL -->
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123456789&color=%23FF8B1E&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+        
+            <div class="soundcloud-embed">
+                <!-- Replace the src attribute with your SoundCloud track URL -->
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/987654321&color=%23FF8B1E&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+        </section>
+        
+        <section id="when" class="page-section">
+            <h2>DAW History</h2>
+            <p>Ableton Live is a fascinating piece of music software that truly changed the game. Created in 2001 by a talented team in Berlin, Germany, it set itself apart right from the beginning.</p>
+        
+            <figure>
+                <img src="images/abletonclipview.png" alt="Ableton Live" width="400"> <!-- Adjust the width value as needed -->
+                <figcaption>Ableton Live Software</figcaption>
+            </figure>
+        
+            <p>What made Live stand out was its sleek interface and innovative workflow. It introduced a dual-view system featuring Session View for arranging clips and Arrange View for traditional composition. This setup was a game-changer for dance and electronic producers, allowing them to trigger loops, play samples, and create complex arrangements with ease.</p>
+        
+            <p>Live also introduced real-time audio timestretching, a groundbreaking feature at the time. In its early days, Live excelled as a tool for sample arrangement and DJing, with a focus on audio manipulation.</p>
+        
+            <p>With the release of version 4, Live expanded its capabilities by introducing MIDI sequencing, enabling the use of VST plugins, MIDI note recording, and professional editing. Live even included its own built-in samplers and synthesizers. Over the years, Live continued to evolve with additional devices and the introduction of Max for Live. Whether used as a standalone DAW or in conjunction with other software, Live proved to be an incredibly versatile tool for music producers.</p>
+        </section>
+        
+        <section id="who" class="page-section">
+            <h2>My Favorite Artists</h2>
+            <!-- Your "Locations" page content here -->
+            <!-- Information about the locations that inspire your music production -->
+        </section>
+        <section id="techniques" class="page-section">
+            <h2>Techniques</h2>
+            <!-- Your "Techniques" page content here -->
+            <!-- Information about music production techniques and tools -->
+        </section>
+        <section id="why" class="page-section">
+            <h2>Why I Make Music</h2>
+            <!-- Your "Why I Make Music" page content here -->
+            <!-- Explore the motivations and inspirations behind your music production -->
+        </section>
+    </main>
+    
+    <footer>
+        <nav>
+            <!-- (Navigation links remain unchanged) -->
+        </nav>
+        <p>Built by <a href="https://schwalbach-enterprise.com/">© Schwalbach Enterprise 2023</a></p>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img style="border:0;width:88px;height:31px" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+        </a>
+    </footer>
+
+    <script>
+        // JavaScript for section hiding/displaying
+        const navLinks = document.querySelectorAll('nav a');
+        const sections = document.querySelectorAll('.page-section');
+    
+        function showSection(sectionId) {
+            sections.forEach((section) => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    
+        navLinks.forEach((link) => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const sectionId = link.getAttribute('href').substring(1);
+                showSection(sectionId);
+            });
+        });
+    
+        // Initialize with the "home" section visible
+        showSection('home');
+    </script>
+    
+</body>
+</html>
