@@ -1,5 +1,4 @@
-
-function validateForm() {
+function formValidate() {
     const name = document.getElementById("name").value;
     const mascot = document.getElementById("mascot").value;
     const imageCaption = document.getElementById("imageCaption").value;
@@ -34,7 +33,7 @@ function validateForm() {
 
 function resetForm() {
     document.getElementById("introForm").reset();
-    document.getElementById("submittedContent").innerHTML = "";
+    document.getElementById("submitcont").innerHTML = "";
 }
 
 function submitForm() {
@@ -64,11 +63,12 @@ function submitForm() {
         courseListHTML += `<li>${course}</li>`;
     });
     courseListHTML += "</ul>";
+
     const imageInput = document.getElementById("image");
     const introImage = document.getElementById("introImage");
     const userImageSource = URL.createObjectURL(imageInput.files[0]);
 
-    const submittedHTML = `
+    const submithtml = `
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -109,13 +109,15 @@ function submitForm() {
         </html>
     `;
 
-    const submittedContent = document.getElementById("submittedContent");
-    submittedContent.innerHTML = submittedHTML;
+    const submitcont = document.getElementById("submitcont");
+    submitcont.innerHTML = submithtml;
 }
+
 function addCourse() {
     const coursesContainer = document.getElementById("coursesContainer");
     const newCourseInput = document.createElement("input");
     newCourseInput.type = "text";
+    newCourseInput.name = "courses[]";
     newCourseInput.classList.add("course");
     newCourseInput.placeholder = "Course Name";
 
@@ -130,3 +132,4 @@ function addCourse() {
     coursesContainer.appendChild(newCourseInput);
     coursesContainer.appendChild(deleteButton);
 }
+
