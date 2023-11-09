@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYO Intro</title>
+    <link rel="stylesheet" href="styles/default.css"> <!-- Include your CSS stylesheet if needed -->
+    <script src="scripts/survey.js"></script> <!-- Include your JavaScript file -->
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h2>BYO Intro</h2>
+        <h3>Time to BYO Intro page, please fill out the form below to create your own page.</h3>
+        <form id="introForm" onsubmit="return formValidate();">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="mascot" placeholder="Mascot">
+            <input type="file" id="image">
+            <input type="text" id="imageCaption" placeholder="Image Caption">
+            <input type="text" id="personalBackground" placeholder="Personal Background">
+            <input type="text" id="professionalBackground" placeholder="Professional Background">
+            <input type="text" id="academicBackground" placeholder="Academic Background">
+            <input type="text" id="webDevelopmentBackground" placeholder="Background in Web Development">
+            <input type="text" id="primaryComputerPlatform" placeholder="Primary Computer Platform">
+            <div id="coursesContainer">
+                <input type="text" name="courses[]" placeholder="Course Name">
+                <button type="button" onclick="addCourse();">Add Course</button>
+            </div>
+            <input type="text" id="funnyThing" placeholder="Funny Thing?">
+            <input type="text" id="anythingElse" placeholder="Anything else?">
+            <label>
+                <input type="checkbox" id="agreeCheckbox">
+                I understand that what is on this page is not password protected and I will not put anything here that I do not want publicly available.
+            </label>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <div id="submittedContent"></div>
+        <button type="button" onclick="resetForm();">Reset</button>
+    </main>
+    <footer>
+    </footer>
+    <script src="scripts/HTMLInclude.js"></script>
+</body>
+</html>
