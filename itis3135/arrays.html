@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h2>Arrays</h2>
+        <select id="employeeDropdown">
+            <option value="Alice">Alice</option>
+            <option value="Bob">Bob</option>
+            <option value="Charlie">Charlie</option>
+        </select>
+        <input type="number" id="salaryInput" placeholder="Enter the Salary">
+        <button onclick="addSalary()">Add Salary</button>
+        <button onclick="displayResults()">Display Results</button>
+        <button onclick="displaySalary()">Display Salary</button>
+        <div id="results"></div>
+        <table id="results_table">
+            <thead>
+                <tr>
+                    <th>Employee</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <footer></footer>
+    <script src="scripts/HTMLInclude.js"></script>
+    <script src="scripts/arrays.js"></script>
+</body>
+</html>
