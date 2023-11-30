@@ -19,15 +19,48 @@
         </nav>
     </header>
     <main>
-        <h1>Photo Gallery</h1>
-        <div class="gallery">
-            <img src="path_to_image1.jpg" alt="Image Description">
-            <img src="path_to_image2.jpg" alt="Image Description">
-            <!-- Add more images as needed -->
-        </div>
+
+        <h2>Automotive Gallery</h2>
+        <section id="automotiveGallery" class="slideshow-container">
+
+            <a class="prev" onclick="plusSlides(-1, 'automotiveGallery')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'automotiveGallery')">&#10095;</a>
+        </section>
+
+        <h2>Portrait Gallery</h2>
+        <section id="portraitGallery" class="slideshow-container">
+            
+            <div class="mySlides fade">
+                <img src="portrait/IMG_2390.jpg" alt="Portrait 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="portrait/IMG_3516.jpg" alt="Portrait 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="portrait/IMG_4318.jpg" alt="Portrait 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="portrait/IMG_4710.jpg" alt="Portrait 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="portrait/IMG_4893.jpg" alt="Portrait 1">
+            </div>
+   
+
+            <a class="prev" onclick="plusSlides(-1, 'portraitGallery')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'portraitGallery')">&#10095;</a>
+        </section>
     </main>
+
     <footer>
-        <!-- Social Media Links -->
-    </footer>
+        <a href="https://www.instagram.com/draperphotos" target="_blank" class="instagram-link" style="text-decoration: none; color: #333;">
+            <img src="portrait/instagram.png" alt="Instagram Icon" class="instagram-icon" style="width: 30px; height: 30px; vertical-align: middle;">
+            <span style="vertical-align: middle;">Instagram</span>
+        </a>    </footer>
+
+ 
+    <script src="scripts/auto.js"></script>
+    <script src="scripts/portrait.js"></script>
+    <script src="scripts/slideshow.js"></script>
 </body>
 </html>
