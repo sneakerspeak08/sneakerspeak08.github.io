@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Updated to a more modern font */
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -14,11 +14,11 @@ body {
 }
 
 header {
-    background: #fff; /* Light background for a clean look */
-    color: #333; /* Dark text for contrast */
+    background: #fff;
+    color: #333;
     padding: 10px 0;
     text-align: center;
-    border-bottom: 2px solid #333; /* Adds a border for a distinct header */
+    border-bottom: 2px solid #333;
 }
 
 nav ul {
@@ -37,13 +37,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #0082c8; /* Highlight color on hover */
+    color: #0082c8;
 }
 
 .hero {
     text-align: center;
     padding: 40px 20px;
-    background: #fff; /* Light background for the hero section */
+    background: #fff;
     color: #333;
 }
 
@@ -64,7 +64,7 @@ main {
 .image-gallery img {
     width: 100%;
     height: auto;
-    border: 2px solid #333; /* Consider removing the border for a cleaner look */
+    border: 2px solid #333;
 }
 
 footer {
@@ -159,7 +159,7 @@ form label, form input, form textarea, form button {
 
 .prev {
     left: 0;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px;
 }
 
 .about-me-image {
@@ -167,5 +167,5 @@ form label, form input, form textarea, form button {
     height: auto;
     display: block;
     margin: 0 auto;
+    max-height: 300px;
 }
-
