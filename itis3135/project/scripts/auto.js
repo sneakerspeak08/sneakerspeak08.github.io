@@ -9,7 +9,7 @@ function loadAutomotiveImages() {
         slide.className = 'mySlides fade';
 
         const img = document.createElement('img');
-        img.src = `${basePath}${i}.jpg`;
+        img.src = `${basePath}${i}.JPG`;
         slide.appendChild(img);
         
         container.appendChild(slide);
